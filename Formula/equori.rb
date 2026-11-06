@@ -8,21 +8,21 @@ class Equori < Formula
   on_macos do
     on_arm do
       url "https://github.com/andrelopes-code/equori/releases/download/v0.1.0-beta.4/equori_0.1.0-beta.4_darwin_arm64.tar.gz"
-      sha256 "b55b69b1eeb5c75b003b7bd9880ab01044959a9f51102535c4daf35e4f133856"
+      sha256 "59b557d8c98dca7277fc004ebb16d05e650cc3a49c30bd48e9ca720b223584b9"
     end
     on_intel do
       url "https://github.com/andrelopes-code/equori/releases/download/v0.1.0-beta.4/equori_0.1.0-beta.4_darwin_amd64.tar.gz"
-      sha256 "bf61f6d26e50371391148fb3b040f4ee15470743d09e25a99e2f7a1097c7d901"
+      sha256 "39abf0cfb5a5878695eed3d3b94ab018fafe902e7b8296292c6899d1b8792493"
     end
   end
   on_linux do
     on_arm do
       url "https://github.com/andrelopes-code/equori/releases/download/v0.1.0-beta.4/equori_0.1.0-beta.4_linux_arm64.tar.gz"
-      sha256 "895c4be1edd4415a03fd780eeaf511096817cfdd49bde98a755e1459e590dcec"
+      sha256 "1b97f61a4da3904901fe224cd83305bb950634c16f595252ce1ccbd87412c213"
     end
     on_intel do
       url "https://github.com/andrelopes-code/equori/releases/download/v0.1.0-beta.4/equori_0.1.0-beta.4_linux_amd64.tar.gz"
-      sha256 "d5d9ee33e7a52c14ad39b9c19b2017739c72a1465a955749ee577cbce2628873"
+      sha256 "619f1055f7da2ed543691732197f7bc02a78683ebb8253128d08017759e43be9"
     end
   end
 
