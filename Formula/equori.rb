@@ -2,27 +2,27 @@
 class Equori < Formula
   desc "Self-hosted personal finance manager"
   homepage "https://github.com/andrelopes-code/equori"
-  version "0.1.0-beta.6"
+  version "0.1.3"
   license "MIT"
 
   on_macos do
     on_arm do
-      url "https://github.com/andrelopes-code/equori/releases/download/v0.1.0-beta.6/equori_0.1.0-beta.6_darwin_arm64.tar.gz"
-      sha256 "7f5dc364f279ee3bfd4f3c0c375d381f2050f70f7e5de70a0568ff7755e0357e"
+      url "https://github.com/andrelopes-code/equori/releases/download/v0.1.3/equori_0.1.3_darwin_arm64.tar.gz"
+      sha256 "c101cffe096a23b716686066422d2ae53902a0eab8dd8d6d1c91aa2f3acf8395"
     end
     on_intel do
-      url "https://github.com/andrelopes-code/equori/releases/download/v0.1.0-beta.6/equori_0.1.0-beta.6_darwin_amd64.tar.gz"
-      sha256 "289828d1a7ae5ebf6d2d6d2c9a632307b00fb41cb758b780074182b58917c332"
+      url "https://github.com/andrelopes-code/equori/releases/download/v0.1.3/equori_0.1.3_darwin_amd64.tar.gz"
+      sha256 "91ade6c7634a01a20e7fa476aeb6006133a0d3fe9d452d0e3da3a5678df6528e"
     end
   end
   on_linux do
     on_arm do
-      url "https://github.com/andrelopes-code/equori/releases/download/v0.1.0-beta.6/equori_0.1.0-beta.6_linux_arm64.tar.gz"
-      sha256 "1ea14b08e60b2860454cacfe23822b941502ca3ff05deec2c622c24dbe140cde"
+      url "https://github.com/andrelopes-code/equori/releases/download/v0.1.3/equori_0.1.3_linux_arm64.tar.gz"
+      sha256 "21ce84b21ace6cb89d104909623f536cb48dae783503a98a1e04c9cacb36187c"
     end
     on_intel do
-      url "https://github.com/andrelopes-code/equori/releases/download/v0.1.0-beta.6/equori_0.1.0-beta.6_linux_amd64.tar.gz"
-      sha256 "16894b6834f90a0263b493e0ce87f6ff3aa57bd9ec478e9b6c991f7eddca0e09"
+      url "https://github.com/andrelopes-code/equori/releases/download/v0.1.3/equori_0.1.3_linux_amd64.tar.gz"
+      sha256 "b570fad321893f588a2cdef72a18bdebe587947a9a3a7deadd502ba0add62c22"
     end
   end
 
